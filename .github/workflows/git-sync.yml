@@ -6,7 +6,7 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "ftos-tests/darius-testA"
+          source_repo: "https://dariusxdragoi:PERSONAL_ACCES_TOKEN@github.com/ftos-tests/darius-testA.git"
           source_branch: "main"
           destination_repo: "ftos-tests/darius-testB"
           destination_branch: "main"
