@@ -6,8 +6,8 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "ftos-tests/darius-testB"
+          source_repo: "git@github.com:ftos-tests/darius-testB.git"
           source_branch: "main"
-          destination_repo: "ftos-tests/darius-testB"
+          destination_repo: "git@github.com:ftos-tests/darius-testB.git"
           destination_branch: "main"
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
