@@ -2,7 +2,7 @@ name: Sync Action
 
 on:
   schedule:
-    - cron: '49 * * * 1-5'
+    - cron: '* * * * 1-5'
     
 jobs:
   git-sync:
