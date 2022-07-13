@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '30 13 * * *'
+    - cron: '35 11 * * *'
     
 jobs:
   git-sync:
