@@ -1,4 +1,7 @@
-on: push
+on:
+  schedule:
+    - cron: '30 13 * * *'
+    
 jobs:
   git-sync:
     runs-on: ubuntu-latest
