@@ -1,6 +1,8 @@
+name: Sync Action
+
 on:
   schedule:
-    - cron: '45 * * * 1-5'
+    - cron: '49 * * * 1-5'
     
 jobs:
   git-sync:
