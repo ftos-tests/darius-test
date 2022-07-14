@@ -10,8 +10,8 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "git@github.com:hadolint/hadolint-action"
-          destination_repo: "git@github.com:ftos-tests/darius-testB"
+          source_repo: "git@github.com:hadolint/hadolint-action:master"
+          destination_repo: "git@github.com:ftos-tests/darius-testB:main"
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}          
   git-sync-tags:
     runs-on: ubuntu-latest
