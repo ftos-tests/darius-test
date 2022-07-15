@@ -11,3 +11,5 @@ jobs:
         run: |
           curl -i -u dariusxdragoi:acceces https://api.github.com/orgs/ftos-forks/repos > /home/runner/work/darius-test/darius-test/repos
           cat /home/runner/work/darius-test/darius-test/repos
+          curl -i -u dariusxdragoi:acceces https://api.github.com/repos/ftos-forks/setup-node > /home/runner/work/darius-test/darius-test/setup-node-repo
+          cat /home/runner/work/darius-test/darius-test/setup-node-repo
