@@ -1,0 +1,12 @@
+name: Sync Repos
+
+on:
+  push
+    
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get-repos
+        run: curl -i -u dariusxdragoi:acceces https://api.github.com/repos/ftos-forks/setup-node > ./gitrepos
+        
