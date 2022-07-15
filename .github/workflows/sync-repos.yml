@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: get-repos
-        run: cat "curl -i -u dariusxdragoi:acceces https://api.github.com/repos/ftos-forks/setup-node"
+        run: |
+          curl -i -u dariusxdragoi:acceces https://api.github.com/repos/ftos-forks/setup-node > ftos-tests/darius-test/gitrepos
+          cat gitrepos
         
