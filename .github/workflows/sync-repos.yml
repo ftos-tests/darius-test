@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: get-repos
         run: |
-          pwd
-        
+          echo "Hello" > /home/runner/work/darius-test/darius-test/repos
+          cat /home/runner/work/darius-test/darius-test/repos
